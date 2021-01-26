@@ -28,6 +28,6 @@
 
 @media(max-width: 499px){
     .DesktopOnly{
-        display: none !important;
+        display: none;
     }
 }
