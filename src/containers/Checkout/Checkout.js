@@ -25,6 +25,10 @@ class Checkout extends Component {
         this.setState( { ingredients: ingredients, totalPrice: price } );
     }
 
+    componentDidMount(){
+        console.log(this.state);
+    }
+
     checkoutCancelledHandler = () => {
         this.props.history.goBack();
     }
